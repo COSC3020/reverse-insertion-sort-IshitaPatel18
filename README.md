@@ -39,6 +39,6 @@ most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
 
 
-​My answer:
+​My answer: 
 ​
 From what I have gathered after reading the Insertion Sort section of the textbook, Introduction to Algorithms, this is my best understanding of the average time complexity of Insertion Sort. In the subarray of sorted elements, the current element to be sorted, A[i], on average can be placed roughly in the middle, as half of the sorted subarray is less than A[i] and the other half is greater than A[i]. Now ti (t subscript i) is equal to i/2, which is the time to run the second for loop. Since constants aren't important enough to change the asymptotic conditions, the ½ can be dropped to leave ti = i, which is the same as the worst case time complexity. If ti = i/2 is used in the summation and the equations used to prove the run time complexities, the summation would only change to equal n(n-1)/4, which again uses the same idea that constants are not as impactful, so $\Theta(n^2)$ is the average time complexity for insertion sort.
